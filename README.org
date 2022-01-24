@@ -1,0 +1,6 @@
+#+TITLE: URL Shortner
+#+AUTHOR: Pushkar Raj <px86@protonmail.com>
+
+* About
+
+=url-shortner= is (as the name suggests) a simple url shortner, implemented using =Nodejs=, =Express=, and =MongoDB Atlas=.

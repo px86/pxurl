@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>URL Shortner</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet"/>
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="subcontainer">
+	<label for="url" class="material-icons">link</label>
+	<input id="url" type="text" placeholder="enter url here" required/><br/>
+
+	<label for="result" class="material-icons">content_copy</label>
+	<input id="result" type="text" placeholder="shortened URL" readonly /><br/>
+
+	<button id="shorten-btn">shorten</button>
+      </div>
+      <div id="updates">Paste the URL and hit the shorten button.</div>
+    </div>
+  </body>
+</html>
